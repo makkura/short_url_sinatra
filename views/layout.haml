@@ -1,0 +1,8 @@
+-# The layout.haml is automatically loaded before any other Haml sheet
+-# This allows for easy templating
+-# yield should pretty much return code from the other loaded templaes
+-# via: http://sinatra-book.gittr.com/#templates
+
+!!!
+%html
+	%body= yield

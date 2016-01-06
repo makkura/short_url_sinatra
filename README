@@ -1,0 +1,16 @@
+This project contains the code to create a light clone of standard URL shorteners like Bit.ly
+It is based off of a screencast found here: http://screencasts.org/episodes/activerecord-with-sinatra
+
+It follows a basic flow of:
+	- Installation
+	- Sinatra Configuration
+	- Sinatra APP details (basic)
+	- SQLite database migration with Rake
+	- Sinatra APP details (routes to Haml Views)
+	- Haml View creation
+	- Sinatra APP (details & features)
+
+It's all in the tutorial.
+Note that a different url format regex was used to avoid UTF-8 vs ASCII encoding issues.
+
+
